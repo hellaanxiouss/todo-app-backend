@@ -17,7 +17,16 @@ import {
   getAllTags,
   tagSoftDelete,
 } from "../controller/tag-controller.js";
-import { getAllUsers, createUser, authenticate } from "../controller/user-controller.js";
+import {
+  getAllUsers,
+  createUser,
+  authenticate,
+} from "../controller/user-controller.js";
+import {
+  createNote,
+  getAllNotes,
+  noteSoftDelete,
+} from "../controller/sticky-notes-controller.js";
 
 const router = express.Router();
 
@@ -36,5 +45,8 @@ router.put("/soft-delete-tag/:id", tagSoftDelete);
 router.get("/get-user", getAllUsers);
 router.post("/create-user", createUser);
 router.post("/authenticate", authenticate);
+router.get("/get-sticky-notes", getAllNotes);
+router.post("/create-sticky-note", createNote);
+router.put("/soft-delete-sticky-note/:id", noteSoftDelete);
 
 export default router;

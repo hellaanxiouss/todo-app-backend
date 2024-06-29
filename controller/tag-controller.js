@@ -47,7 +47,7 @@ export const tagSoftDelete = async (req, res) => {
 export const tagDelete = async (req, res) => {
   try {
     const id = req.params.id;
-    const list = await Lists.findByPk(id);
+    const list = await Tags.findByPk(id);
     if (!list) {
       return res.status(404).json({ error: "Tag not found!!" });
     }
