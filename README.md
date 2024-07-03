@@ -57,7 +57,7 @@ To get started with the project, follow these steps:
 
    ```bash
    git clone https://github.com/hellaanxiouss/todo-app-backend.git
-   cd todo-app-frontend
+   cd todo-app-backend
    ```
 
 2. **Install dependencies**:
