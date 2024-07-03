@@ -106,6 +106,21 @@ To get started with the project, follow these steps:
 * `POST /create-user`: Register a new user
 * `POST /authenticate`: Login an existing user
 
+## Environment Veriables
+
+```
+DB_NAME: "Your_DB_name"              # The name of your database
+DB_HOST: "YOUR_DB_HOST"              # The hostname or IP address of your database server
+DB_PORT: "YOUR_DB_PORT"              # The port number your database is listening on
+DB_USER: "YOUR_DB_USER"              # The username to connect to your database
+DB_PASSWORD: "YOUR_DB_PASSWORD"      # The password for the database user
+DB_DIALECT: "YOUR_DB_DIALECT"        # The type of database (e.g., postgres, mysql)
+
+PORT: "YOUR_APP_PORT"            # The port number your application will run on
+
+JWT_SECRET_KEY: "YOUR_JWT_SECRET_KEY"  # Secret key used for signing JWT tokens
+```
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request to contribute to this project.
