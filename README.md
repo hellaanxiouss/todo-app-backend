@@ -4,7 +4,7 @@ A backend API for a Todo App, built to manage and store todo tasks.
 
 ## Features
 
-* Create, read, update, and delete todo tasks
+* Create, read, update, and delete  tasks
 * User authentication and authorization
 * API endpoints for CRUD operations
 
@@ -106,7 +106,7 @@ To get started with the project, follow these steps:
 * `POST /create-user`: Register a new user
 * `POST /authenticate`: Login an existing user
 
-## Environment Veriables
+## Environment Variables
 
 ```
 DB_NAME: "Your_DB_name"              # The name of your database
